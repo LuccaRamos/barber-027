@@ -53,7 +53,7 @@ export default function Home() {
           <div className='w-[450px]'>
             <Slider {...settings}>
               {Carrousel.map((item) => (
-                <div>
+                <div key={item.key}>
                   <Image 
                     className='rounded-3xl'
                     alt={item.alt}
