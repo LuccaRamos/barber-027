@@ -56,7 +56,6 @@ export default function Home() {
                 <div>
                   <Image 
                     className='rounded-3xl'
-                    key={item.key}
                     alt={item.alt}
                     src={item.img}
                     width={450}
