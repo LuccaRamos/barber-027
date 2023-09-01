@@ -21,10 +21,10 @@ const settings = {
 };
 
 const Carrousel = [
-  { alt: 'Lançamento: carro new civc azul ', img: '/corte.png', key: '1', current: true },
-  { alt: 'Lançamento: carro new civc azul ', img: '/corte.png', key: '2', current: true },
-  { alt: 'Lançamento: carro new civc azul ', img: '/corte.png', key: '3', current: true },
-  { alt: 'Lançamento: carro new civc azul ', img: '/corte.png', key: '4', current: true }
+  { alt: 'Lançamento: carro new civc azul ', img: '/corte1.jpg', key: '2', current: true },
+  { alt: 'Lançamento: carro new civc azul ', img: '/corte2.jpg', key: '3', current: true },
+  { alt: 'Lançamento: carro new civc azul ', img: '/corte3.jpg', key: '4', current: true },
+  { alt: 'Lançamento: carro new civc azul ', img: '/corte.png', key: '1', current: true }
 ]
 
 export default function Home() {
